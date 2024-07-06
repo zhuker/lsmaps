@@ -58,7 +58,7 @@ int main(int argc, char **argv) {
 
     std::vector<uint64_t> mem{};
 
-    printf("VSZ\t\tRAM\t\tSWAP\t\tLine\n");
+    printf("VSZ\tRAM\tSWAP\tLine\n");
     while (std::getline(file, line)) { // Read file line by line
         uint64_t start = 0;
         uint64_t end = 0;
