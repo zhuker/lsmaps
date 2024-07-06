@@ -6,6 +6,7 @@
 #include <csignal>
 #include <vector>
 #include <bitset>
+#include <unistd.h>
 
 std::string humanReadableSize(size_t bytes) {
     const char *sizes[] = {"B", "KB", "MB", "GB", "TB"};
